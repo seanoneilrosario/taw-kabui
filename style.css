@@ -166,9 +166,15 @@ h6:last-child {
 }
 
 .header-content-wrap .nav {
-  align-items: center;
-  gap: 20px;
-  display: flex;
+  display: none;
+}
+
+@media(min-width: 1140px) {
+  .header-content-wrap .nav {
+    align-items: center;
+    gap: 20px;
+    display: flex;
+  }
 }
 
 
