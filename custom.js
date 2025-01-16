@@ -12,3 +12,11 @@ window.onscroll = function() {
         document.querySelector("#section-header").classList.remove("scrolled")
     }
 };
+
+$('.prog_slider').slick({
+    dots: true,
+    infinite: false,
+    speed: 300,
+    slidesToShow: 1,
+    arrows: false
+});
