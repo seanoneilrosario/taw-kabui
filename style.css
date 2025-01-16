@@ -148,13 +148,17 @@ h6:last-child {
 
 
 /* Header */
-.header {
+#section-header {
     position: sticky;
     top: 0;
+    padding: 10px 20px;
 }
 
 .header-content-wrap {
   display: flex;
+  justify-content: space-between;
+  max-width: 1400px;
+  margin: auto;
 }
 
 .header-content-wrap .logo img {
@@ -164,7 +168,17 @@ h6:last-child {
 .header-content-wrap .nav {
   align-items: center;
   gap: 20px;
+  display: flex;
 }
+
+
+
+/* Main */
+main {
+  margin-top: -124px;
+}
+
+
 
 
 /* Custom Codes */
