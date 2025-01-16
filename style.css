@@ -230,6 +230,15 @@ main {
     z-index: -1;
   }
 
+  .ImageHero__ImageWrapper {
+    background: #ffffffa1;
+    text-align: center;
+    padding: 60px 30px;
+    border-radius: 10px;
+    max-width: 840px;
+    margin: 20px 40px;
+  }
+
   .ImageHero__ImageWrapper h3 {
     font-size: 30px;
     font-weight: 700;
