@@ -1,3 +1,15 @@
+// $('.prog_slider').slick({
+//     dots: true,
+//     infinite: false,
+//     speed: 300,
+//     slidesToShow: 1,
+//     arrows: false
+// });
+
+console.log($('.prog_slider'));
+
+$('.prog_slider').slick();
+
 window.onscroll = function() {
     // Get the scroll height
     // var scrollHeight = document.documentElement.scrollHeight;
@@ -13,10 +25,3 @@ window.onscroll = function() {
     }
 };
 
-$('.prog_slider').slick({
-    dots: true,
-    infinite: false,
-    speed: 300,
-    slidesToShow: 1,
-    arrows: false
-});
