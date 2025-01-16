@@ -180,6 +180,10 @@ h6:last-child {
   width: 100px;
 }
 
+#section-header.scrolled {
+  background: #28727d;
+}
+
 @media(min-width: 1140px) {
   .header-content-wrap .nav {
     align-items: center;
