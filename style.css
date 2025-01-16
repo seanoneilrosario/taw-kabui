@@ -108,7 +108,7 @@ h6 {
 
 p {
   margin-top: 0;
-  font-size: 15px;
+  font-size: 17px;
   font-weight: inherit;
   line-height: 1.4;
   font-family: "Raleway", serif;
@@ -171,9 +171,10 @@ h6:last-child {
 
 .header-content-wrap .nav a {
   color: #fff;
-  font-weight: 500;
-  font-size: 18px;
+  font-weight: 600;
+  font-size: 17px;
   text-transform: uppercase;
+  letter-spacing: 1px;
 }
 
 .header-spacer {
@@ -207,6 +208,37 @@ main {
 .hero-banner img {
     width: 100%;
   }
+
+
+  /* Image with floating box */
+  .floating_box {
+    position: relative;
+    min-height: 70vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .floating_box img {
+    position: absolute;
+    width: 100%;
+    left: 0;
+    top: 0;
+    height: 100%;
+    object-fit: cover;
+    object-position: top;
+    z-index: -1;
+  }
+
+  .ImageHero__ImageWrapper h3 {
+    font-size: 30px;
+    font-weight: 700;
+  }
+
+  .ImageHero__ImageWrapper p {
+    font-size: 17px;
+    font-weight: 600;
+  }
   
   
   
@@ -237,7 +269,7 @@ main {
   }
   
   .block-content h4 {
-    font-size: 20px;
+    font-size: 26px;
     font-weight: 600;
   }
   
@@ -250,4 +282,16 @@ main {
       background: #f15a2a;
       color: #fff;
     }
+  }
+
+
+  /* Image Slider */
+  .slider-with_img {
+    background: #1d1d1d;
+    color: #fff;
+    padding: 60px;
+  }
+
+  .slider-with_img-top {
+    display: flex;
   }
