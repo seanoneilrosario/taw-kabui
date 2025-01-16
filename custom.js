@@ -6,7 +6,7 @@ window.onscroll = function() {
     // Get the client height (viewport height)
     var clientHeight = document.documentElement.clientHeight;
 
-    console.log("Scroll Height: " + scrollHeight);
-    console.log("Scroll Top: " + scrollTop);
-    console.log("Client Height: " + clientHeight);
+    if (scrollTop > 65) {
+        console.log("!!!")
+    }
 };
