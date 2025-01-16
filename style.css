@@ -131,6 +131,18 @@ h6:last-child {
 #section-announcement {
     background: #0b2e33;
     color: #ffffff;
+    padding: 10px 20px;
+    text-align: center;
+}
+
+#section-announcement .AnnouncementBar {
+  padding: 10px 20px;
+  text-align: center;
+}
+
+#section-announcement .AnnouncementBar p {
+  font-size: 18px;
+  font-weight: 800;
 }
 
 
@@ -141,6 +153,18 @@ h6:last-child {
     top: 0;
 }
 
+.header-content-wrap {
+  display: flex;
+}
+
+.header-content-wrap .logo img {
+  width: 100px;
+}
+
+.header-content-wrap .nav {
+  align-items: center;
+  gap: 20px;
+}
 
 
 /* Custom Codes */
