@@ -169,6 +169,17 @@ h6:last-child {
   display: none;
 }
 
+.header-content-wrap .nav a {
+  color: #fff;
+  font-weight: 500;
+  font-size: 18px;
+  text-transform: uppercase;
+}
+
+.header-spacer {
+  width: 100px;
+}
+
 @media(min-width: 1140px) {
   .header-content-wrap .nav {
     align-items: center;
