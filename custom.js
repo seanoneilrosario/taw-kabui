@@ -56,4 +56,22 @@ $(document).ready(function() {
             }
         ]
     });
+
+    $('.grid-container').slick({
+        slidesToShow: 1,
+        slidesToScroll: 1,
+        autoplay: true,
+        autoplaySpeed: 2000,
+        mobileFirst: true,
+        speed: 300,
+        adaptiveHeight: true,
+        arrows: false,
+        dots: true,
+        responsive: [
+           {
+              breakpoint: 1140,
+              settings: "unslick"
+           }
+        ]
+     });
 });

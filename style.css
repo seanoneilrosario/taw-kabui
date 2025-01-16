@@ -137,7 +137,6 @@ h6:last-child {
 }
 
 #section-announcement .AnnouncementBar {
-  padding: 0 20px;
   text-align: center;
 }
 
@@ -249,7 +248,7 @@ main {
     padding: 60px 30px;
     border-radius: 10px;
     max-width: 840px;
-    margin: 20px 40px;
+    margin: 15px 15px;
   }
 
   .ImageHero__ImageWrapper h3 {
@@ -260,6 +259,12 @@ main {
   .ImageHero__ImageWrapper p {
     font-size: 17px;
     font-weight: 600;
+  }
+
+  @media(min-width: 1140px) {
+    .ImageHero__ImageWrapper {
+      margin: 20px 40px;
+    }
   }
   
   
@@ -463,7 +468,7 @@ main {
 
   .gallery--block {
     background: #1D1D1D;
-    padding: 60px 0 80px;
+    padding: 0 0 80px;
   }
 
   .gallery--block img {
@@ -494,6 +499,34 @@ main {
 
   .column {
     margin-bottom: 8px;
+  }
+
+  .gallery--block .slick-dots {
+    display: flex;
+    justify-content: center;
+    padding: 0;
+  }
+  
+  .gallery--block .slick-dots li {
+    list-style: none;
+    margin-right: 5px;
+    cursor: pointer;
+  }
+  
+  .gallery--block .slick-dots li button {
+    font-size: 0;
+    border: none;
+    width: 10px;
+    transition: 0.3s;
+    height: 5px;
+    outline: none;
+    cursor: pointer;
+  }
+  
+  .gallery--block .slick-dots li.slick-active button,
+  .gallery--block .slick-dots li:hover button,
+  .gallery--block .slick-dots li:focus button {
+    background: #28727d;
   }
 
   @media screen and (min-width: 641px) {
@@ -535,6 +568,10 @@ main {
   @media screen and (min-width: 1140px) {
       .column {
           margin-bottom: 16px;
+      }
+
+      .gallery--block {
+        padding: 60px 0 80px;
       }
   } 
 
