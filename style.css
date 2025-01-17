@@ -501,32 +501,67 @@ main {
     margin-bottom: 8px;
   }
 
-  .gallery--block .slick-dots {
-    display: flex;
-    justify-content: center;
-    padding: 0;
+  .grid-container {
+    position: relative;
+    margin-bottom: 30px;
   }
-  
-  .gallery--block .slick-dots li {
-    list-style: none;
-    margin-right: 5px;
-    cursor: pointer;
-  }
-  
-  .gallery--block .slick-dots li button {
+
+  .grid-container .slick-arrow {
+    position: absolute;
+    bottom: -30px;
     font-size: 0;
     border: none;
-    width: 10px;
-    transition: 0.3s;
-    height: 5px;
-    outline: none;
-    cursor: pointer;
+    background: transparent;
   }
-  
-  .gallery--block .slick-dots li.slick-active button,
-  .gallery--block .slick-dots li:hover button,
-  .gallery--block .slick-dots li:focus button {
-    background: #28727d;
+
+  .grid-container .slick-arrow.slick-prev {
+    position: absolute;
+    left: 0;
+  }
+
+  .grid-container .slick-arrow.slick-prev:before {
+    content: "";
+    border: 2px solid #f15a2a;
+    width: 20px;
+    height: 2px;
+    border-radius: 5px;
+    display: block;
+    transform: rotate(30deg) translate(0px, 10px);
+  }
+
+  .grid-container .slick-arrow.slick-prev:after {
+    content: "";
+    border: 2px solid #f15a2a;
+    width: 20px;
+    height: 2px;
+    border-radius: 5px;
+    display: block;
+    transform: rotate(-30deg) translate(-2px, -6px);
+  }
+
+  .grid-container .slick-arrow.slick-next {
+    position: absolute;
+    right: 0;
+  }
+
+  .grid-container .slick-arrow.slick-next:before {
+    content: "";
+    border: 2px solid #f15a2a;
+    width: 20px;
+    height: 2px;
+    border-radius: 5px;
+    display: block;
+    transform: rotate(-30deg) translate(0px, 10px);
+  }
+
+  .grid-container .slick-arrow.slick-next:after {
+    content: "";
+    border: 2px solid #f15a2a;
+    width: 20px;
+    height: 2px;
+    border-radius: 5px;
+    display: block;
+    transform: rotate(30deg) translate(2px, -6px);
   }
 
   @media screen and (min-width: 641px) {

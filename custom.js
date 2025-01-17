@@ -65,8 +65,8 @@ $(document).ready(function() {
         mobileFirst: true,
         speed: 300,
         adaptiveHeight: true,
-        arrows: false,
-        dots: true,
+        arrows: true,
+        dots: false,
         responsive: [
            {
               breakpoint: 1140,
